@@ -1,8 +1,29 @@
-# React + Vite
+# Portfolio — Gastón Benítez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personal desarrollado con React, Vite y CSS. Presenta mi perfil profesional, experiencia, proyectos, stack técnico y formas de contacto.
 
-Currently, two official plugins are available:
+## Ejecutar localmente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
+
+## Build de producción
+
+```bash
+npm run build
+```
+
+## Estructura
+
+- `src/components`: navegación y hero principal.
+- `src/App.jsx`: contenido y secciones del portfolio.
+- `src/App.css`: sistema visual, responsive y animaciones.
+- `public`: archivos estáticos, incluido el CV descargable.
+
+## Próximos pasos posibles
+
+- Agregar demos y capturas reales de cada proyecto.
+- Incorporar un formulario de contacto con servicio de email.
+- Publicar en Vercel, Netlify o GitHub Pages.
